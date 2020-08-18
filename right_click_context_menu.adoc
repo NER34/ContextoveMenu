@@ -68,7 +68,7 @@ Abychom mohli přidat svoe vstupy do contextového menu musíme implementovat `g
     }
  });
 
-image::tlacitko_kontextoveho_menu_1.png[]
+image::https://github.com/NER34/RightClickContextMenu/blob/master/Picturies/tlacitko_kontextoveho_menu_1.png[]
 
 Do parametru `description` ukládame popis, který se zobrazí na obrazovce. Do `callback` ukládame název funkce, kterou budeme volat a do `parameters` - všechny parametry, které pošleme do funkci `callback`.
 
@@ -95,7 +95,7 @@ Do parametru `description` ukládame popis, který se zobrazí na obrazovce. Do 
     this.getFullContextMenuAndUpdate();
  },
 
-Pokud do callbacku se neposílají žadné parammetry, mmůžeme nepsát nic v závorkach.
+Pokud do callbacku se neposílají žadné parametry, můžeme nepsát nic v závorkach.
 
 [source,javascript]
  entries.push({
@@ -116,7 +116,7 @@ Pokud do callbacku se neposílají žadné parammetry, mmůžeme nepsát nic v z
      this.getFullContextMenuAndUpdate();
  }
 
-image::tlacitko_kontextoveho_menu_2.png[]
+image::https://github.com/NER34/RightClickContextMenu/blob/master/Picturies/tlacitko_kontextoveho_menu_2.png[]
 
 Pokud chcete udělat vstupní textové pole musíte k parametrům tlačítka přidat `inputField` a `inputFieldSize`
 
@@ -129,7 +129,7 @@ Pokud chcete udělat vstupní textové pole musíte k parametrům tlačítka př
      inputFieldSize: 20
  });
 
-image::vstupni_pole_kontextoveho_menu_2.png[]
+image::https://github.com/NER34/RightClickContextMenu/blob/master/Picturies/vstupni_pole_kontextoveho_menu_2.png[]
 
 `inputField: true` znamená, že chceme udělat z toho vstupní textové pole a v `inputFieldSize` ukládáme počet symbolů, které můžeme do tohoto pole zapsát. Zappsáný text můžeme dostat v callback v parammetru `responseObject.clientInput`.
 
@@ -169,13 +169,13 @@ Pokud byste chtěli rozdělit vstupy můžete pro to použit separator. Pro to p
  });
 
 
-image::separator_kontextoveho_menu_2.png[]
+image::https://github.com/NER34/RightClickContextMenu/blob/master/Picturies/separator_kontextoveho_menu_2.png[]
 
 Program volá `getContextEntries` jednou a vytváří kontextové menu. Pokud ale budeme chtit změnit kontextové menu, musíme použit funkce `this.getFullContextMenuAndUpdate()`, která spustí `getContextEntries` a tím znovu vygeneruje contextové menu.
 
 [%hardbreaks]
 === Zdrojový kod:
 
-instruktion.json link na soubor
+link:https://github.com/NER34/RightClickContextMenu/blob/master/context_calculator/instructions.json[instructions.json]
 
-clock.js link na soubor
+link:https://github.com/NER34/RightClickContextMenu/blob/master/context_calculator/context_calculator.js[context_calculator.js]
