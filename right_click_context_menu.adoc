@@ -176,6 +176,4 @@ Program volá `getContextEntries` jednou a vytváří kontextové menu. Pokud al
 [%hardbreaks]
 === Zdrojový kod:
 
-link:https://github.com/NER34/RightClickContextMenu/blob/master/context_calculator/instructions.json[instructions.json]
-
-link:https://github.com/NER34/RightClickContextMenu/blob/master/context_calculator/context_calculator.js[context_calculator.js]
+link:https://github.com/NER34/RightClickContextMenu/tree/master/context_calculator[context_calculator]
